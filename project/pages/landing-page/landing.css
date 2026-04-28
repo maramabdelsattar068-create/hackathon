@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f8fafc;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.badge {
+  background: #e0edff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #2563eb;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.secondary {
+  border: 1px solid #2563eb;
+  background: white;
+  padding: 10px 20px;
+}
+
+.hero-img img {
+  border-radius: 15px;
+}
+
+.features {
+  text-align: center;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
